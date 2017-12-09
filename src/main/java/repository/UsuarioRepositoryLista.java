@@ -1,15 +1,16 @@
 package repository;
 
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 import model.Usuario;
+import repositoryImpl.UsuarioRepositoryImpl;
 
-public class UsuarioRepository {
+public class UsuarioRepositoryLista implements UsuarioRepositoryImpl{
 	
 	private List<Usuario> usuarios = new ArrayList<>();
 	
-	public boolean adicionar(Usuario usuario) {
+	public boolean adicionar(Usuario usuario) {		
 		return usuarios.add(usuario);				
 	}
 	

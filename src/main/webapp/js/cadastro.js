@@ -14,7 +14,7 @@ class Autenticador{
 			alert("Voce deve preencher todos os campos!");
 			return false;
 		}
-		alert("Login efetuado com sucesso!");
+		alert("Cadastro efetuado com sucesso!");
 		return true;		
 	}
 }
