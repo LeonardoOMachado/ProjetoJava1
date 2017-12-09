@@ -18,11 +18,18 @@ var Autenticar = class {
 		return true;		
 	}
 }
+	class CalculoFinanceiro{		
+		static calculoPorcentagem(a,b){
+			return b*a/100;
+		}
+	}
+		
+	
 
 
 window.onload = function(){	
 
-	document.getElementsByTagName("form")[0].onsubmit = function(){		
+	document.getElementsByTagName("form")[0].onsubmit = function(){				
 		return Autenticar.verificaValores();	
 	}
 }	
