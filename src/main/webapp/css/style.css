@@ -1,13 +1,10 @@
 @charset "ISO-8859-1";
 
 
-h3{
+h1{
 	text-align: center;
 }
 
 input {
-	border: 2px;
-	border-style: dashed;
-	border-color: yellow;
 	width: 100%;
 }
